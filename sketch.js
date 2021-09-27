@@ -44,14 +44,14 @@ function draw() {
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //escribe el código para mover el globo aerostático en dirección ascendente
     balloon.velocityY = -5
-    balloon.scale = balloon.scale + 0.001
+    balloon.scale = balloon.scale + 0.005
     updateHeight(0, -10)
   }
   if(keyDown(DOWN_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //escribe el código para mover el globo aerostático en dirección descendente
     balloon.velocityY = 5
-    balloon.scale = balloon.scale - 0.001
+    balloon.scale = balloon.scale - 0.005
     updateHeight(0, 10)
   }
 
